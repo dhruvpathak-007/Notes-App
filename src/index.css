@@ -1,0 +1,96 @@
+.section{
+  padding: 15px;
+  padding-left: 15px;
+  margin:auto;
+  max-width: 60%;
+  background-color:#2d545e;
+  color: #e1b382;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display:block;
+  align-self: center;
+    
+}
+
+.note{
+  max-width: 60%;
+  background-color:#e1b382;
+  color: #12343b;
+  font-weight: lighter;
+  border: 1px #12343b solid;
+  margin:auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display:block;
+  padding-left: 10px;
+  max-width: 60%;
+
+}
+.input{
+  min-height: 34px;
+  width: 80%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 1em;
+  margin-bottom: 2;
+  display: inline-block;
+  border: 1px solid #e1b382;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+  height: 100px;
+}
+
+
+label{
+  display: block;
+  padding: 2px;
+}
+
+h2{
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ color: #12343b;
+ text-align: center;
+ margin-top: 10px;
+
+}
+
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn{
+  border-radius: 5px;
+  background-color:#c89666;
+  color: white;
+  border-style: none;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.remove{
+  background-color: #12343b;
+  width:fit-content;
+  margin-bottom: 4px;
+
+}
+
+.blog-btn{
+  text-align: end;
+  margin-right: 10px;
+}
+/* Created with https://www.css-gradient.com */
+/* background: #565318;
+background: -webkit-linear-gradient(right, #565318, #3C464E);
+background: -moz-linear-gradient(right, #565318, #3C464E);
+background: linear-gradient(to left, #565318, #3C464E); */

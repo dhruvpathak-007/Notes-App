@@ -1,5 +1,5 @@
 //notesging App using Hooks
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Notes(){
 
@@ -7,6 +7,14 @@ export default function Notes(){
     // const [content,setContent] = useState("");
     const [formData, setFormData]=useState({title:"",content:""});
     const [notes, setnotes] =  useState([]);
+
+    useEffect(()=>{
+        if(notes.length && notes[0].title )
+        document.title=notes[0].title;
+        else
+        document.title="No title"
+
+    },[notes])
 
     function handleSubmit(e){
         e.preventDefault();
